@@ -39,31 +39,31 @@ function draw() {
     
     if(keyDown("")){
   
-      // write a code to move left when left arrow is pressed
+      //escribir aquí el código para mover el fantasma a la izquierda al presionar la flecha izquierda
     }
     if(keyDown("")){
   
     
-      // write a code to move left when right arrow is pressed
+      //escribir aquí el código para mover el fantasma a la derecha al presionar la flecha derecha
       
     }
     if(keyDown("")){
   
    
-      // write a code to move up when space arrow is pressed
+      //escribir aquí el código para mover el fantasma hacia arriba al presionar la flecha hacia arriba
       
     }
   
   ghost.velocityY = ghost.velocityY + 0.8;
   
    
-      //write a condition for infinte scrolling tower
+      //escribir una condición para desplazar infinitamente la torre
     
       spawnDoors();
 
   
-      //write a code to make climbersGroup collide with ghost change the ghost velocity  
-//write a code to make invisibleBlockGroup collide with ghost destroy the ghost and make gamestate to end.
+      //escribir el código para hacer que climbersGroup colisione con el fantasma y cambiar la velocidad del fantasma  
+//escribir aquí el código para hacer que invisibleBlockGroup colisione con el fantasma, destruir el fantasma y cambiar gamestate a end.
   
   drawSprites();
 }
@@ -71,20 +71,20 @@ function draw() {
     stroke("yellow");
     fill("yellow");
     textSize(30);
-    text("Game Over", 230,250)
+    text("Fin del juego", 230,250)
   }
 }
 
 function spawnDoors()
  {
-  //write code here to spawn the clouds
+  //escribir aquí el código para aparecer los obstáculos
   if (frameCount % 240 === 0) {
     var door = createSprite(200, -50);
     var climber = createSprite(200,10);
     var invisibleBlock = createSprite(200,15);
     invisibleBlock.width = climber.width;
     invisibleBlock.height = 2;
-    //add the random function
+    //agregar la función random
     //
     door.addImage(doorImg);
     climber.addImage(climberImg);
@@ -93,7 +93,7 @@ function spawnDoors()
     climber.velocityY = 1;
     invisibleBlock.velocityY = 1;
 
-    //change the depth of the ghost and door
+    //cambiar la profundidad del fantasma y de la puerta
     
      
 
