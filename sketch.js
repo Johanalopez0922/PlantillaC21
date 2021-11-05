@@ -98,10 +98,10 @@ function spawnDoors()
      
 
     
-    //assign lifetime to the obstacle.lifetime = 300; here  obstacle are door, climber and invisible block
+    //asignar lifetime a obstacle.lifetime = 300; aquí los obstáculos son la puerta, la barandilla y el bloque invisible
 
 
-    //add each obstacle to the group obstaclesGroup.add(obstacle);here  obstacle are door, climber and invisible block
+    //agregar cada obstáculo al grupo obstaclesGroup.add(obstacle);aquí los obstáculos son la puerta, la barandilla y el bloque invisible
   }
 }
 
